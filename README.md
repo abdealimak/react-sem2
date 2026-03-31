@@ -1,2 +1,2 @@
 # react 👨🏻‍💻
--compilation of all
+compilation of all
