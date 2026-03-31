@@ -1,2 +1,2 @@
-# react 👨🏻‍💻
-<h3>compilation of all my react projects
+# React 👨🏻‍💻
+<h3>compilation of all my react projects</h3>
