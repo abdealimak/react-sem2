@@ -1,19 +1,19 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, memo } from "react";
 
-const Component = ({increment}) => {
+const Component = memo(({increment}) => {
     console.log("rendered");
     return(
         <button>Increment count</button>
     )
-}
+});
 
 function Callback(){
     const [mode, setMode]= useState(false);
     const [count, setCount]= useState(0);
 
-    const increment = () => {
+    const increment = useCallback(() => {
         setCount((c)=> c + 1);
-    }
+    }, [] );
 
     return(
         <div style={{
